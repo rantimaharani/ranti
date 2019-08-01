@@ -22,7 +22,7 @@ class CreateBukusTable extends Migration
             $table->string('buku_jumhal');
             $table->string('buku_diskripsi');
             $table->string('buku_pengarang');
-            $table->bigInteger('buku_tahun_terbit')
+            $table->bigInteger('buku_tahun_terbit');
             $table->timestamps();
         });
     }
